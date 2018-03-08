@@ -48,7 +48,7 @@
     "tape": "^4.6.3"
   },
   "dependencies": {
-    "request": "^2.55.0",
+    "request": "^2.83.0",
     "xhr": "^2.0.1"
   },
   "standard": {

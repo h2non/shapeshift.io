@@ -12,7 +12,7 @@ test('should get status of deposit address with valid address', function (t) {
     t.same(data.withdraw, '1H9rH6Na5sTTGbzqohVKYQdQPxEJqcmzy4')
     t.same(data.incomingCoin, 28.922632) // todo, make string
     t.same(data.incomingType, 'STR')
-    t.same(data.outgoingCoin, '0.00030000')
+    t.same(data.outgoingCoin, '0.0003')
     t.same(data.outgoingType, 'BTC')
     t.true('transaction' in data, 'data has transaction field')
     t.end()
